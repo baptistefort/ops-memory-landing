@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="OPS transforme chaque échange, décision et événement en une mémoire d’entreprise vivante, reliée, sourcée et actionnable.">
+    <meta name="theme-color" content="#c6e2f7">
+    <title>OPS · La mémoire IA de votre entreprise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@500&amp;family=Manrope:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/@hyperframes/player@0.7.57/dist/hyperframes-player.global.js"></script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2218%22 fill=%22%23031635%22/><circle cx=%2232%22 cy=%2232%22 r=%2214%22 fill=%22none%22 stroke=%22white%22 stroke-width=%226%22/></svg>">
+  </head>
+  <body>
+    <svg class="svg-defs" aria-hidden="true">
+      <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" /></symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6" /></symbol>
+      <symbol id="icon-database" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3" /><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6" /></symbol>
+      <symbol id="icon-spark" viewBox="0 0 24 24"><path d="m12 3 1.5 5.5L19 10l-5.5 1.5L12 17l-1.5-5.5L5 10l5.5-1.5L12 3ZM19 16l.7 2.3L22 19l-2.3.7L19 22l-.7-2.3L16 19l2.3-.7L19 16Z" /></symbol>
+      <symbol id="icon-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.7 2.8 8.3 7 10 4.2-1.7 7-5.3 7-10V6l-7-3Z" /><path d="m9 12 2 2 4-5" /></symbol>
+      <symbol id="icon-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.5.5l2-2a5 5 0 0 0-7-7l-1 1M14 11a5 5 0 0 0-7.5-.5l-2 2a5 5 0 0 0 7 7l1-1" /></symbol>
+      <symbol id="icon-doc" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z" /><path d="M14 3v5h5M9 13h6M9 17h5" /></symbol>
+      <symbol id="icon-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3" /><path d="M3 20c.5-4 2.6-6 6-6s5.5 2 6 6M16 5c2 0 3 1.2 3 3s-1 3-3 3M17 14c2.5.4 3.8 2.4 4 6" /></symbol>
+      <symbol id="icon-chart" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2" /></symbol>
+      <symbol id="icon-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2" /><path d="M8 10V7a4 4 0 0 1 8 0v3" /></symbol>
+    </svg>
+
+    <header class="site-header">
+      <nav class="nav-shell container" aria-label="Navigation principale">
+        <a class="wordmark" href="#top" aria-label="OPS, accueil">OPS<span class="wordmark-dot">°</span></a>
+        <div class="nav-links">
+          <a href="#cockpit">Cockpit</a>
+          <a href="#memory">Mémoire</a>
+          <a href="#deployment">Déploiement</a>
+        </div>
+        <div class="nav-actions">
+          <span class="lang-switch"><span>EN</span><i>·</i><strong>FR</strong></span>
+          <button type="button" class="button button-dark open-contact">Cartographier mon entreprise</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-grain" aria-hidden="true"></div>
+        <div class="hero-content container">
+          <p class="hero-kicker">La mémoire IA de votre entreprise</p>
+          <h1>Votre boîte a enfin<br><em>une mémoire.</em></h1>
+          <p class="hero-subtitle">OPS transforme chaque échange, décision et événement en un contexte vivant, relié et exploitable. Votre entreprise comprend ce qu’elle sait, se souvient de ce qu’elle a promis et anticipe ce qui doit suivre.</p>
+          <div class="hero-actions">
+            <a class="button button-dark button-large" href="#cockpit">Voir la mémoire en action</a>
+            <a class="button button-link" href="#approach">Découvrir l’approche <svg><use href="#icon-arrow" /></svg></a>
+          </div>
+          <p class="hero-note">Conçue autour de votre métier · Chaque réponse est sourcée · Vous gardez la décision</p>
+        </div>
+        <div class="hero-proof container">
+          <p class="mono-label">Tout ce que votre entreprise sait, enfin relié</p>
+          <ul class="proof-list" aria-label="Connaissances reliées par la mémoire">
+            <li>CLIENTS</li>
+            <li>PROJETS</li>
+            <li>DÉCISIONS</li>
+            <li>ENGAGEMENTS</li>
+            <li>SAVOIR</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section-problem" id="approach">
+        <div class="container">
+          <div class="center-intro reveal">
+            <p class="mono-label">01 · Le constat</p>
+            <h2>Votre entreprise avance.<br><em>Le contexte, lui, se disperse.</em></h2>
+            <p>Une décision dans un échange. Une promesse dans un compte rendu. Une exception connue d’une seule personne. Le travail avance, mais son contexte se fragmente. OPS le rassemble, le relie à sa source et le rend disponible au moment où il compte.</p>
+          </div>
+
+          <div class="value-bento" data-bento>
+            <article class="bento-card bento-large bento-memory is-active" data-bento-card="memory" role="button" tabindex="0" aria-pressed="true">
+              <img class="bento-media" src="assets/bento-profiles.jpg" alt="" loading="lazy" decoding="async">
+              <div class="bento-copy"><h3>Une mémoire qui ne perd jamais le fil</h3><p>Clients, projets, décisions et engagements restent reliés dans un même fil.</p></div>
+            </article>
+
+            <article class="bento-card bento-wide bento-sources" data-bento-card="sources" role="button" tabindex="0" aria-pressed="false">
+              <img class="bento-media" src="assets/bento-speed.jpg" alt="" loading="lazy" decoding="async">
+              <div class="bento-copy"><h3>Le contexte au bon moment</h3><p>Le fait utile, avec sa source et son contexte.</p></div>
+            </article>
+
+            <article class="bento-card bento-small bento-agents" data-bento-card="agents" role="button" tabindex="0" aria-pressed="false">
+              <img class="bento-media" src="assets/bento-memory-core.jpg" alt="" loading="lazy" decoding="async">
+              <div class="bento-copy"><h3>Les décisions restent</h3><p>Ce qui a été décidé ne disparaît plus après la réunion.</p></div>
+            </article>
+
+            <article class="bento-card bento-small bento-owned" data-bento-card="owned" role="button" tabindex="0" aria-pressed="false">
+              <img class="bento-media" src="assets/bento-ownership.jpg" alt="" loading="lazy" decoding="async">
+              <div class="bento-copy"><h3>Un savoir transmissible</h3><p>Les règles et les exceptions ne restent plus dans deux têtes.</p></div>
+            </article>
+
+            <article class="bento-card bento-full bento-people" data-bento-card="people" role="button" tabindex="0" aria-pressed="false">
+              <img class="bento-media" src="assets/bento-advisory.jpg" alt="" loading="lazy" decoding="async">
+              <div class="bento-copy"><h3>Une mémoire IA qui travaille</h3><p>Elle résume, rapproche, alerte et prépare la suite.</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-cockpit" id="cockpit">
+        <div class="container">
+          <div class="split-heading reveal">
+            <div>
+              <p class="mono-label">02 · Le cockpit</p>
+              <h2>Vous demandez.<br><em>Elle reconstitue tout le contexte.</em></h2>
+            </div>
+            <div class="split-copy">
+              <p>OPS relie les faits avant de répondre. Elle retrouve le client, les promesses, les décisions et ce qui attend une suite. Vous voyez la réponse, son contexte et ses sources.</p>
+              <span class="demo-disclaimer">Mémoire synchronisée</span>
+            </div>
+          </div>
+
+          <div class="cockpit-motion-shell reveal" role="group" aria-labelledby="cockpit-animation-title" data-cockpit-motion data-desktop-src="dashboard-motion/index.html?v=memory-ai-1" data-mobile-src="dashboard-motion/mobile/index.html?v=memory-ai-1">
+            <picture class="cockpit-motion-poster cockpit-motion-poster-start" aria-hidden="true">
+              <source media="(max-width: 1024px)" srcset="dashboard-motion/mobile/snapshots/frame-00-at-0.6s.png?v=memory-ai-1">
+              <img src="dashboard-motion/snapshots/frame-00-at-0.6s.png?v=memory-ai-1" alt="" loading="lazy" decoding="async">
+            </picture>
+            <picture class="cockpit-motion-poster cockpit-motion-poster-final" aria-hidden="true">
+              <source media="(max-width: 1024px)" srcset="dashboard-motion/mobile/snapshots/frame-01-at-17.7s.png?v=memory-ai-1">
+              <img src="dashboard-motion/snapshots/frame-01-at-17.7s.png?v=memory-ai-1" alt="" loading="lazy" decoding="async">
+            </picture>
+            <div class="cockpit-motion-mount" aria-hidden="true" inert></div>
+            <div class="sr-only">
+              <h3 id="cockpit-animation-title">Conversation animée entre une dirigeante et la mémoire IA OPS</h3>
+              <ol>
+                <li>La dirigeante demande un résumé complet de la situation d’un client. OPS rassemble les échanges, les décisions, les échéances et les points en attente dans une synthèse sourcée.</li>
+                <li>Elle demande quelles promesses ont été faites. OPS retrouve trois engagements, leur date, leur responsable et ce qui reste à livrer.</li>
+                <li>Elle demande quelle décision récente n’a pas eu de suite. OPS identifie un arbitrage resté sans action et restitue le contexte qui le justifie.</li>
+                <li>Elle demande un brief et les prochaines actions. OPS prépare un plan, propose les responsables et confirme qu’aucune action engageante ne partira sans validation.</li>
+              </ol>
+            </div>
+          </div>
+          <p class="cockpit-footnote">Chaque journée enrichit la mémoire. Elle comprend mieux vos clients, vos projets, vos règles et vos exceptions. Chaque réponse reste reliée à ses sources.</p>
+        </div>
+      </section>
+
+      <section class="section section-memory" id="memory">
+        <div class="container two-column-layout">
+          <div class="section-sticky reveal">
+            <p class="mono-label">03 · La mémoire</p>
+            <h2>Chaque fait trouve sa place.<br><em>Chaque relation lui donne du sens.</em></h2>
+            <p>Une personne, un client, un projet, une décision et l’engagement qui en découle cessent d’être des fragments. Ils forment un contexte continu, vérifiable et toujours accessible.</p>
+            <a href="#deployment" class="button button-link">Voir le déploiement <svg><use href="#icon-arrow" /></svg></a>
+          </div>
+          <div class="accordion" data-accordion>
+            <article class="accordion-item is-open">
+              <button type="button" aria-expanded="true"><span>Personnes</span><i></i></button>
+              <div class="accordion-panel"><p>Rôles, responsabilités, relations et sujets suivis restent réunis. Chacun retrouve qui sait quoi, qui a promis quoi et qui doit agir.</p><div class="micro-proof"><strong>« Que sait-on déjà avant de l’appeler ? »</strong><span>12 faits reliés · 4 sources · 1 point en attente</span></div></div>
+            </article>
+            <article class="accordion-item">
+              <button type="button" aria-expanded="false"><span>Clients</span><i></i></button>
+              <div class="accordion-panel"><p>Chaque relation conserve son contexte : demandes, promesses, décisions, projets et prochains pas.</p><div class="micro-proof"><strong>Du premier échange au prochain engagement</strong><span>Un fil continu · Aucun contexte perdu</span></div></div>
+            </article>
+            <article class="accordion-item">
+              <button type="button" aria-expanded="false"><span>Projets</span><i></i></button>
+              <div class="accordion-panel"><p>Objectifs, jalons, arbitrages, risques et dépendances restent reliés aux personnes et aux décisions concernées.</p><div class="micro-proof"><strong>3 projets à surveiller</strong><span>Cause · responsable · prochaine étape</span></div></div>
+            </article>
+            <article class="accordion-item">
+              <button type="button" aria-expanded="false"><span>Décisions</span><i></i></button>
+              <div class="accordion-panel"><p>Chaque décision garde sa raison, ses participants, sa date et les actions qu’elle déclenche.</p><div class="micro-proof"><strong>7 décisions cette semaine</strong><span>2 sans suite · 1 validation attendue</span></div></div>
+            </article>
+            <article class="accordion-item">
+              <button type="button" aria-expanded="false"><span>Règles &amp; exceptions</span><i></i></button>
+              <div class="accordion-panel"><p>Les habitudes métier, les limites et les cas particuliers deviennent un savoir explicite, relié aux situations qui les ont fait naître.</p><div class="micro-proof"><strong>« Dans ce cas précis, on fait autrement. »</strong><span>Règle retrouvée · exception justifiée</span></div></div>
+            </article>
+            <article class="accordion-item">
+              <button type="button" aria-expanded="false"><span>Historique &amp; droits</span><i></i></button>
+              <div class="accordion-panel"><p>Le contexte évolue sans effacer son origine. Chacun accède à ce qui concerne son rôle, tandis que la chronologie des changements reste visible.</p><div class="micro-proof"><strong>Une mémoire vérifiable</strong><span>Sources visibles · accès selon le rôle</span></div></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-system">
+        <div class="container">
+          <div class="center-intro compact reveal">
+            <p class="mono-label">04 · Une infrastructure sur mesure</p>
+            <h2>Elle ne vous impose pas son modèle.<br><em>Elle apprend le vôtre.</em></h2>
+            <p>Votre métier a son langage, ses responsabilités, ses étapes et ses exceptions. OPS s’y adapte. Vos outils peuvent changer. Votre mémoire reste.</p>
+          </div>
+          <div class="system-grid">
+            <article class="system-card system-card-wide reveal">
+              <span class="system-icon"><svg><use href="#icon-link" /></svg></span>
+              <h3>Une continuité opérationnelle</h3>
+              <p>Un échange devient une demande. La demande rejoint un projet. La décision engage une suite. Rien ne se coupe.</p>
+              <div class="flow-strip"><span>Échange<strong>Demande claire</strong></span><i>→</i><span>Décision<strong>Responsable</strong></span><i>→</i><span>Action<strong>Échéance</strong></span><i>→</i><span>Mémoire<strong>Source visible</strong></span></div>
+            </article>
+            <article class="system-card system-card-tint reveal">
+              <span class="system-icon"><svg><use href="#icon-spark" /></svg></span>
+              <h3>Une mémoire IA structurée</h3>
+              <p>OPS distingue les faits, les personnes, les projets et les engagements. Elle les relie sans perdre leur origine.</p>
+              <div class="agent-policy"><span>MÉMOIRE ACTIVE</span><strong>Relie les faits au contexte</strong><small>SOURCE VISIBLE · HISTORIQUE CONSERVÉ</small></div>
+            </article>
+            <article class="system-card reveal">
+              <span class="system-icon"><svg><use href="#icon-doc" /></svg></span>
+              <h3>Un savoir actionnable</h3>
+              <p>Une règle retrouvée éclaire une décision. Une décision déclenche une action. Le savoir ne dort plus dans les archives.</p>
+              <div class="document-stack"><span>RÈGLE CLIENT</span><span>DÉCISION DU 12 JUILLET</span><span>EXCEPTION VALIDÉE</span></div>
+            </article>
+            <article class="system-card system-card-wide reveal">
+              <span class="system-icon"><svg><use href="#icon-users" /></svg></span>
+              <h3>Une entreprise qui ne dépend plus de deux personnes</h3>
+              <p>Les nouveaux comprennent plus vite. Les responsables retrouvent les raisons derrière les choix. Le savoir circule sans perdre ses limites.</p>
+              <div class="role-row"><span><i>MD</i><strong>Marie</strong><small>Direction · vue globale</small></span><span><i>CL</i><strong>Camille</strong><small>Relation client · son périmètre</small></span><span><i>TR</i><strong>Thomas</strong><small>Opérations · ses missions</small></span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-agents">
+        <div class="container">
+          <div class="center-intro compact reveal">
+            <p class="mono-label">05 · Les agents</p>
+            <h2>Elle comprend d’abord.<br><em>Elle agit ensuite.</em></h2>
+            <p>Les agents IA ne partent jamais d’une page blanche. Ils s’appuient sur la mémoire, respectent leur périmètre et vous laissent valider ce qui engage l’entreprise.</p>
+          </div>
+
+          <div class="agent-rows">
+            <article class="agent-row reveal">
+              <div class="agent-portrait agent-direction"><img src="assets/agent-direction-abstract.jpg" alt="" width="1024" height="1024" loading="lazy" decoding="async"></div>
+              <div class="agent-row-content">
+                <div class="agent-row-head"><div><h3>Agent Mémoire</h3><p>CONTEXTE · RELATIONS · SOURCES</p></div><span class="agent-status"><i></i> Actif</span></div>
+                <p>Retrouve les faits, rapproche les personnes et restitue le contexte utile sans masquer les incertitudes.</p>
+                <div class="agent-rules"><span>Peut lire <strong>Les sources autorisées</strong></span><span>Peut préparer <strong>Contextes · liens · synthèses</strong></span><span>Doit faire valider <strong>Tout rapprochement incertain</strong></span></div>
+              </div>
+            </article>
+            <article class="agent-row reveal">
+              <div class="agent-portrait agent-revenue"><img src="assets/agent-revenue-abstract.jpg" alt="" width="1024" height="1024" loading="lazy" decoding="async"></div>
+              <div class="agent-row-content">
+                <div class="agent-row-head"><div><h3>Agent Brief</h3><p>SYNTHÈSE · PRIORITÉS · DÉCISIONS</p></div><span class="agent-status"><i></i> Actif</span></div>
+                <p>Prépare le point du matin, distingue l’urgent de l’important et fait remonter les décisions qui attendent une suite.</p>
+                <div class="agent-rules"><span>Peut lire <strong>Le périmètre de son destinataire</strong></span><span>Peut préparer <strong>Briefs · alertes · questions</strong></span><span>Doit faire valider <strong>Toute priorité sensible</strong></span></div>
+              </div>
+            </article>
+            <article class="agent-row reveal">
+              <div class="agent-portrait agent-operations"><img src="assets/agent-operations-abstract.jpg" alt="" width="1024" height="1024" loading="lazy" decoding="async"></div>
+              <div class="agent-row-content">
+                <div class="agent-row-head"><div><h3>Agent Client</h3><p>CONTEXTE · PROMESSES · SUIVI</p></div><span class="agent-status"><i></i> Actif</span></div>
+                <p>Reconstitue le contexte d’une relation, retrouve les engagements et prépare la prochaine étape avec le bon ton.</p>
+                <div class="agent-rules"><span>Peut lire <strong>Clients · projets · engagements</strong></span><span>Peut préparer <strong>Résumés · réponses · prochaines étapes</strong></span><span>Doit faire valider <strong>Tout message externe</strong></span></div>
+              </div>
+            </article>
+            <article class="agent-row reveal">
+              <div class="agent-portrait agent-analysis"><img src="assets/agent-analysis-abstract.jpg" alt="" width="1024" height="1024" loading="lazy" decoding="async"></div>
+              <div class="agent-row-content">
+                <div class="agent-row-head"><div><h3>Agent Action</h3><p>TÂCHES · ÉCHÉANCES · SUIVI</p></div><span class="agent-status"><i></i> Actif</span></div>
+                <p>Transforme une décision validée en prochaines actions, suit les échéances et signale ce qui reste sans responsable.</p>
+                <div class="agent-rules"><span>Peut lire <strong>Décisions · règles · responsabilités</strong></span><span>Peut préparer <strong>Tâches · rappels · plans d’action</strong></span><span>Doit faire valider <strong>Toute action engageante</strong></span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-deployment" id="deployment">
+        <div class="container">
+          <div class="split-heading reveal">
+            <div>
+              <p class="mono-label">06 · Le déploiement</p>
+              <h2>On commence par votre réalité.<br><em>Pas par nos fonctionnalités.</em></h2>
+            </div>
+            <div class="split-copy"><p>Nous partons d’un processus réel. Votre environnement existant continue de fonctionner pendant qu’OPS apprend le contexte, restitue ses sources et prouve sa valeur.</p><strong>Un périmètre utile d’abord. Le reste ensuite.</strong></div>
+          </div>
+          <ol class="deployment-steps">
+            <li class="reveal"><span>01</span><div><h3>Comprendre votre entreprise</h3><p>Vous racontez votre métier comme à quelqu’un qui devrait le reprendre demain : langage, étapes, responsabilités, règles et exceptions.</p></div><small>ATELIER MÉTIER</small></li>
+            <li class="reveal"><span>02</span><div><h3>Retrouver le contexte</h3><p>Nous suivons les faits à travers vos sources et vos outils en place, sans modifier votre façon de travailler.</p></div><small>LECTURE SEULE</small></li>
+            <li class="reveal"><span>03</span><div><h3>Construire la mémoire</h3><p>Personnes, clients, projets, décisions et engagements sont rapprochés dans un contexte sourcé qui suit votre métier.</p></div><small>PILOTE SOURCÉ</small></li>
+            <li class="reveal"><span>04</span><div><h3>Fermer une première boucle</h3><p>On choisit une question concrète, puis OPS prépare les réponses et les actions avant toute autonomie.</p></div><small>AUTONOMIE GRADUELLE</small></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section section-offer" id="offer">
+        <div class="container offer-shell reveal">
+          <div class="offer-heading">
+            <p class="mono-label">Votre avantage cumulatif</p>
+            <h2>Vous n’ajoutez pas un outil.<br><em>Vous construisez un avantage qui s’accumule.</em></h2>
+          </div>
+          <div class="offer-grid">
+            <div class="offer-benefits">
+              <ul>
+                <li><svg><use href="#icon-check" /></svg><span>Un fil continu, du premier échange à la prochaine action</span></li>
+                <li><svg><use href="#icon-check" /></svg><span>Le bon contexte pour chaque rôle, au bon moment</span></li>
+                <li><svg><use href="#icon-check" /></svg><span>Des décisions et des engagements traçables</span></li>
+                <li><svg><use href="#icon-check" /></svg><span>Un savoir transmissible, même quand l’équipe change</span></li>
+                <li><svg><use href="#icon-check" /></svg><span>Des agents qui travaillent avec une compréhension réelle</span></li>
+              </ul>
+              <div class="ownership-row"><span>VOS DONNÉES</span><span>VOS RÈGLES</span><span>VOTRE MÉMOIRE</span><span>VOTRE HISTORIQUE</span></div>
+            </div>
+            <div class="offer-card">
+              <p>Mémoire opérationnelle</p>
+              <h3>Sur mesure</h3>
+              <span>selon votre métier et le premier périmètre</span>
+              <div class="offer-divider"></div>
+              <small>Première cartographie · 45 minutes</small>
+              <button type="button" class="button button-dark button-large open-contact">Cartographier mon entreprise</button>
+              <p class="offer-comparison">Venez avec une question à laquelle votre entreprise devrait déjà savoir répondre.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-faq">
+        <div class="container faq-layout">
+          <div class="section-sticky reveal">
+            <p class="mono-label">07 · Vos questions</p>
+            <h2>Ce que vous vous<br><em>demandez déjà.</em></h2>
+            <p>Une mémoire utile doit être claire sur son fonctionnement, ses sources, ses limites et sa réversibilité.</p>
+          </div>
+          <div class="accordion faq-accordion" data-accordion>
+            <article class="accordion-item is-open"><button type="button" aria-expanded="true"><span>Faut-il remplacer nos outils en place ?</span><i></i></button><div class="accordion-panel"><p>Non. OPS commence dans votre environnement existant. Elle lit, relie et restitue le contexte sans imposer de remplacement.</p></div></article>
+            <article class="accordion-item"><button type="button" aria-expanded="false"><span>Comment OPS s’adapte-t-elle à notre fonctionnement ?</span><i></i></button><div class="accordion-panel"><p>Nous partons de votre langage, de vos responsabilités, de vos étapes et de vos exceptions. La mémoire suit votre métier, pas un modèle générique.</p></div></article>
+            <article class="accordion-item"><button type="button" aria-expanded="false"><span>Et si l’information est dispersée ?</span><i></i></button><div class="accordion-panel"><p>C’est précisément le point de départ. OPS rapproche les faits utiles entre vos sources tout en conservant leur origine et leur date.</p></div></article>
+            <article class="accordion-item"><button type="button" aria-expanded="false"><span>Comment savoir si une réponse est fiable ?</span><i></i></button><div class="accordion-panel"><p>Chaque réponse montre les sources qui la soutiennent. OPS distingue les faits établis, les rapprochements probables et ce qui doit encore être vérifié.</p></div></article>
+            <article class="accordion-item"><button type="button" aria-expanded="false"><span>Les agents peuvent-ils agir seuls ?</span><i></i></button><div class="accordion-panel"><p>Seulement dans le périmètre défini. Lire, préparer et agir sont trois niveaux distincts. Ce qui engage l’entreprise reste soumis à validation.</p></div></article>
+            <article class="accordion-item"><button type="button" aria-expanded="false"><span>Peut-on récupérer notre mémoire ?</span><i></i></button><div class="accordion-panel"><p>Oui. Vos faits, vos relations, vos règles et votre historique restent exportables dans des formats convenus dès le départ.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta">
+        <div class="final-cta-overlay" aria-hidden="true"></div>
+        <div class="container final-cta-content reveal">
+          <p class="mono-label">Le premier périmètre</p>
+          <h2>Commencez par ce que votre entreprise<br><em>ne devrait plus jamais oublier.</em></h2>
+          <p>En 45 minutes, nous cartographions un processus réel, les connaissances qu’il mobilise et la première boucle que la mémoire peut sécuriser.</p>
+          <button type="button" class="button button-dark button-large open-contact">Cartographier mon entreprise</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-main">
+        <div><a class="wordmark" href="#top">OPS<span class="wordmark-dot">°</span></a><p>La mémoire IA de votre entreprise.<br>Construite autour de votre métier. Exploitable par votre équipe. Exportable par principe.</p></div>
+        <nav aria-label="Navigation de pied de page"><a href="#cockpit">Cockpit</a><a href="#memory">Mémoire</a><a href="#deployment">Déploiement</a><a href="#offer">Avantage</a></nav>
+        <div class="footer-contact"><span>CONTACT</span><a href="mailto:hello@ops-ia.fr">hello@ops-ia.fr</a><button type="button" class="open-contact">Cartographier mon entreprise ↗</button></div>
+      </div>
+      <div class="container footer-bottom"><span>Fait avec conviction · Paris, France</span><span>Infrastructure OPS · © 2026</span></div>
+    </footer>
+
+    <div class="contact-modal" inert aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="contact-title">
+      <button type="button" class="modal-backdrop close-contact" aria-label="Fermer la fenêtre"></button>
+      <div class="modal-card" tabindex="-1">
+        <button type="button" class="modal-close close-contact" aria-label="Fermer">×</button>
+        <span class="modal-mark">O°</span>
+        <p class="mono-label">Première cartographie</p>
+        <h2 id="contact-title">Partons d’une question réelle.</h2>
+        <p>Quel client faut-il comprendre ? Quelle promesse ne doit pas être oubliée ? Quelle décision attend encore une suite ?</p>
+        <a class="contact-option" href="mailto:hello@ops-ia.fr?subject=Cartographier%20mon%20entreprise%20avec%20OPS"><span><strong>Cartographier mon entreprise</strong><small>hello@ops-ia.fr</small></span><svg><use href="#icon-arrow" /></svg></a>
+        <a class="contact-option" href="mailto:hello@ops-ia.fr?subject=Partager%20une%20question%20réelle%20à%20OPS"><span><strong>Partager ma question</strong><small>Client, promesse ou décision à retrouver</small></span><svg><use href="#icon-arrow" /></svg></a>
+        <small class="modal-note">45 minutes. Un processus réel. Une première boucle utile.</small>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
