@@ -1,4 +1,5 @@
 .DS_Store
 .vercel
 output/
+.playwright-cli/
 .env*
